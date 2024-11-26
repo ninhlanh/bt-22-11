@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Diện Tích</title>
+    <link rel="stylesheet" href="css/BT2-22-11.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tính Diện Tích</h1>
+        
+        <!-- Hình chữ nhật -->
+        <div class="form-section">
+            <h2>Hình Chữ Nhật</h2>
+            <label>Chiều dài:</label>
+            <input type="number" id="rectangle-length" placeholder="Nhập chiều dài">
+            <label>Chiều rộng:</label>
+            <input type="number" id="rectangle-width" placeholder="Nhập chiều rộng">
+            <button onclick="calculateRectangle()">Tính</button>
+            <p id="rectangle-result"></p>
+        </div>
+
+        <!-- Hình tam giác -->
+        <div class="form-section">
+            <h2>Hình Tam Giác</h2>
+            <label>Cạnh đáy:</label>
+            <input type="number" id="triangle-base" placeholder="Nhập cạnh đáy">
+            <label>Chiều cao:</label>
+            <input type="number" id="triangle-height" placeholder="Nhập chiều cao">
+            <button onclick="calculateTriangle()">Tính</button>
+            <p id="triangle-result"></p>
+        </div>
+
+        <!-- Hình vuông -->
+        <div class="form-section">
+            <h2>Hình Vuông</h2>
+            <label>Cạnh:</label>
+            <input type="number" id="square-side" placeholder="Nhập cạnh">
+            <button onclick="calculateSquare()">Tính</button>
+            <p id="square-result"></p>
+        </div>
+    </div>
+    <script src="js/BT2-22-11.js"></script>
+</body>
+</html>
